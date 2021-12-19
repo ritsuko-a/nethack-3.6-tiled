@@ -50,4 +50,4 @@ exec xterm                                                                    \
 
 ```
 
-Symset is fully compatible with original fonts as well, but only with tty interface.
+Symset is partially compatible (except dark_room) with original fonts as well, but only with tty interface.
