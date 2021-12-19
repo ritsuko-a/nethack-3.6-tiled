@@ -19,34 +19,34 @@ OPTIONS=color,lit_corridor,windowtype:curses,eight_bit_tty
 ```
 
 * Start XTerm with new font
-```
+```sh
 #!/bin/sh
-exec xterm																							\
-		-fg	white																					\
-		-bg	black																					\
-		-cr	red																					\
-		+sb																							\
-		-bdc																							\
-		-en	"ISO 8859-1"																		\
-		-font	-misc-nethack-medium-r-normal--24-160-100-100-c-160--custom			\
-		-xrm	"xterm*color0:#000000"															\
-		-xrm	"xterm*color1:#d00000"															\
-		-xrm	"xterm*color2:#00b000"															\
-		-xrm	"xterm*color3:#c07000"															\
-		-xrm	"xterm*color4:#3030ff"															\
-		-xrm	"xterm*color5:#c800c8"															\
-		-xrm	"xterm*color6:#00c8c8"															\
-		-xrm	"xterm*color7:#d0d0d0"															\
-		-xrm	"xterm*color9:#ffb000"															\
-		-xrm	"xterm*color10:#40ff00"															\
-		-xrm	"xterm*color11:#ffff40"															\
-		-xrm	"xterm*color12:#0090ff"															\
-		-xrm	"xterm*color13:#ff00ff"															\
-		-xrm	"xterm*color14:#70ffff"															\
-		-xrm	"xterm*color15:#ffffff"															\
-		-xrm	"xterm*renderFont: false"														\
-		-geometry	140x60																		\
-		-e nethack
+exec xterm                                                                    \
+      -fg   white                                                             \
+      -bg   black                                                             \
+      -cr   red                                                               \
+      +sb                                                                     \
+      -bdc                                                                    \
+      -en   "ISO 8859-1"                                                      \
+      -font -misc-nethack-medium-r-normal--24-160-100-100-c-160--custom       \
+      -xrm  "xterm*color0:#000000"                                            \
+      -xrm  "xterm*color1:#d00000"                                            \
+      -xrm  "xterm*color2:#00b000"                                            \
+      -xrm  "xterm*color3:#c07000"                                            \
+      -xrm  "xterm*color4:#3030ff"                                            \
+      -xrm  "xterm*color5:#c800c8"                                            \
+      -xrm  "xterm*color6:#00c8c8"                                            \
+      -xrm  "xterm*color7:#d0d0d0"                                            \
+      -xrm  "xterm*color9:#ffb000"                                            \
+      -xrm  "xterm*color10:#40ff00"                                           \
+      -xrm  "xterm*color11:#ffff40"                                           \
+      -xrm  "xterm*color12:#0090ff"                                           \
+      -xrm  "xterm*color13:#ff00ff"                                           \
+      -xrm  "xterm*color14:#70ffff"                                           \
+      -xrm  "xterm*color15:#ffffff"                                           \
+      -xrm  "xterm*renderFont: false"                                         \
+      -geometry   140x60                                                      \
+      -e nethack
 
 ```
 
